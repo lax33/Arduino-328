@@ -89,10 +89,10 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\Uno_SD_LCD;C:\Program Files (x86)\Arduino\libraries\UTFT;C:\Program Files (x86)\Arduino\libraries\SD\src;C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\SPI\src;C:\Program Files (x86)\Arduino\libraries\SD\src\utility;C:\Program Files (x86)\Arduino\libraries;C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries;$(ProjectDir)..\libraries;C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino;C:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\standard;C:\Users\hag\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\5.4.0-atmel3.6.1-arduino2\avr\include;C:\Users\hag\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\5.4.0-atmel3.6.1-arduino2\avr\include\avr;C:\Users\hag\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\5.4.0-atmel3.6.1-arduino2\lib\gcc\avr\4.8.1\include;C:\Users\hag\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\5.4.0-atmel3.6.1-arduino2\lib\gcc\avr\4.9.2\include;C:\Users\hag\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\5.4.0-atmel3.6.1-arduino2\lib\gcc\avr\4.9.3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\Uno_SD_LCD;C:\Users\hag\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.5.2\libraries\SPI;$(ProjectDir)..\..\ARDUINO\libraries\UTFT;C:\Users\hag\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.5.2\libraries\SD\src;C:\Users\hag\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.5.2\cores\esp8266;C:\Users\hag\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.5.2\cores\esp8266\avr;C:\Users\hag\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.5.2\cores\esp8266\libb64;C:\Users\hag\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.5.2\cores\esp8266\spiffs;C:\Users\hag\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.5.2\cores\esp8266\umm_malloc;C:\Users\hag\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.5.2\variants\d1;C:\Users\hag\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.5.2\tools\sdk\include;C:\Users\hag\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.5.2\tools\sdk\lwip2\include;C:\Users\hag\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.5.2\tools\sdk\libc\xtensa-lx106-elf\include;C:\Users\hag\AppData\Local\arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\2.5.0-3-20ed2b9\xtensa-lx106-elf\include\c++\4.8.2;C:\Users\hag\AppData\Local\arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\2.5.0-3-20ed2b9\xtensa-lx106-elf\include\c++\4.8.2\xtensa-lx106-elf;C:\Users\hag\AppData\Local\arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\2.5.0-3-20ed2b9\xtensa-lx106-elf\include;C:\Users\hag\AppData\Local\arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\2.5.0-3-20ed2b9\lib\gcc\xtensa-lx106-elf\4.8.2\include;C:\Users\hag\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.5.2\tools\sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ProjectDir)__vm\.Uno_SD_LCD.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <IgnoreStandardIncludePath>false</IgnoreStandardIncludePath>
-      <PreprocessorDefinitions>__AVR_atmega328p__;__AVR_ATmega328P__;_VMDEBUG=1;F_CPU=16000000L;ARDUINO=10809;ARDUINO_AVR_UNO;ARDUINO_ARCH_AVR;__cplusplus=201103L;_VMICRO_INTELLISENSE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>__ESP8266_esp8266__;__ESP8266_ESP8266__;_VMDEBUG=1;__ets__;ICACHE_FLASH;NONOSDK221=1;F_CPU=80000000L;LWIP_OPEN_SRC;TCP_MSS=1460;LWIP_FEATURES=1;LWIP_IPV6=0;ARDUINO=10809;ARDUINO_ESP8266_WEMOS_D1R1;ARDUINO_ARCH_ESP8266;FLASHMODE_DIO;ESP8266;__cplusplus=201103L;_VMICRO_INTELLISENSE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -117,7 +117,7 @@
   </ImportGroup>
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties arduino.upload.port="COM5" />
+      <UserProperties arduino.upload.port="COM5" config.Debug.customdebug_esp8266_d1_debugger_type="universal" />
     </VisualStudio>
   </ProjectExtensions>
 </Project>
